@@ -1,3 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+
+	font-family: 'Montserrat', sans-serif !important;
+}
+.background{
+
+
+	background: #83a4d4; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #83a4d4, #b6fbff); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #83a4d4, #b6fbff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+body #motopress-main.main-holder{
+
+	background: #f6f6f6;
+
+}
+.bot2{
+
+	border-top-color: #398f14;
+
+}
+#cart a:hover{
+
+	text-decoration: none;
+
+
+}
+#cart *{
+	font-size: 16px;
+	transition: 0.75s;
+	color:#654ea3 !important;
+}
+#cart:hover *{
+
+	background: -webkit-linear-gradient(#ee9ca7, #ffdde1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: 0.75s;
+
+}
+#cart
 div.wpcf7 {
 	margin: 0;
 	padding: 0;
@@ -66,4 +110,9 @@ div.wpcf7 div.ajax-error {
 
 div.wpcf7 .placeheld {
 	color: #888;
+}
+ul li a{
+
+	text-transform: uppercase !important;
+
 }
