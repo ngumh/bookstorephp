@@ -36,7 +36,7 @@
 
                         <div class="logo pull-left">
                             <a href="index.php" class="logo_h logo_h__img"><img src="images/logo.png" style="width:300px;" alt="Book King" title="the biggest choice on the web"></a>
-                            <p class="logo_tagline">the biggest choice on the web</p> 
+                            <p class="logo_tagline">BLACKPINK In Your Area</p> 
                         </div>
                       </div>
                 <div class="span5 bot1" data-motopress-type="static" data-motopress-static-file="static/static-shop-nav.php">

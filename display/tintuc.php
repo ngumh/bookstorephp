@@ -58,7 +58,7 @@ Tin tức </h1>
 <div class="excerpt">
     <?php echo substr($r[3],0,100)?>...
  </div>
-<a href="index.php?page=tintucct&matt=<?php echo $r[0]?>"	 style="text-transform :uppercase;">ĐỌC TIẾP</a>
+<a href="index.php?page=tintucct&matt=<?php echo $r[0]?>" style="text-transform: uppercase !important;">ĐỌC TIẾP</a>
 <div class="clear"></div>
 </div>
  
