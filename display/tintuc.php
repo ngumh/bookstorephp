@@ -56,9 +56,9 @@ Tin tức </h1>
  
 <div class="post_content">
 <div class="excerpt">
-    <?php echo substr($r[3],0,500)?>...
+    <?php echo substr($r[3],0,100)?>...
  </div>
-<a href="index.php?page=tintucct&matt=<?php echo $r[0]?>" class="btn btn-primary">đọc tiếp</a>
+<a href="index.php?page=tintucct&matt=<?php echo $r[0]?>"	 style="text-transform :uppercase;">ĐỌC TIẾP</a>
 <div class="clear"></div>
 </div>
  

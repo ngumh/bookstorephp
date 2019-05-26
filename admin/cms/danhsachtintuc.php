@@ -48,15 +48,15 @@
                                         {                
                                             echo "<tr>"
                                                    
-                                                    . "<td>$r[1]</td>"
-                                                    . "<td><img src='../hinhanhsp/$r[2]' width='100px'/></td>"
-                                                    . "<td>".substr($r[3], 0, 400 )."...</td>"
-                                                    . "<td>$r[4]</td>"
+                                                    . "<td>".$r[1]."</td>"
+                                                    . "<td><img src='../hinhanhsp/".$r[2]."' width='100px'/></td>"
+                                                    . "<td>".substr($r[3], 0, -50 )."...</td>"
+                                                    . "<td>".$r[4]."</td>"
                                                     
                                                     . "<td>"
-                                                    . "<a href='index.php?page=suatintuc&matt=$r[0]' title='Edit'><img src='../cssjsadmin/images/edit.png' width='18px'/></a> "
+                                                    . "<a href='index.php?page=suatintuc&matt=".$r[0]."' title='Edit'><img src='../cssjsadmin/images/edit.png' width='18px'/></a> "
 
-                                                    ."<a onclick='check($r[0])' href='#' title='Delete'><img src='../cssjsadmin/images/delete.png'width='18px'/></a>"
+                                                    ."<a onclick='check(".$r[0].")' href='#' title='Delete'><img src='../cssjsadmin/images/delete.png'width='18px'/></a>"
                                                     . "</td>"
                                                  . "</tr>";
 

@@ -33,4 +33,3 @@ Tin tức </h1>
 </div>
 </div>
 </div>
-<div class="fb-comments" data-href="http://mocmeo.com" data-colorscheme="light" data-numposts="5" data-width="1170" style="margin-top: 0px"></div>

@@ -17,12 +17,12 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
                 
                 if (empty($error))
                 {                      
-                    $query = "insert into tintuc(tieude,anhnen,noidung) values('$tieude', '$anhnen', '$noidung')";
+                    $query = "insert into tintuc(tieude,anhnen,noidung,ngaytao) values('$tieude', '$anhnen', '$noidung',now())";
                     $count=$db->exec($query);
                     if($count>0)
                     {
                         move_uploaded_file($_FILES['fImg']['tmp_name'], "../hinhanhsp/$anhnen");
-                        echo"<b><i> THÊM MỚI THÀNH CÔNG </i></b>";
+                        echo'<b class="text-center" style="color:#fefefe"><i> THÊM MỚI THÀNH CÔNG </i></b>';
                      }
                         
                 
